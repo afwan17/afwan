@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afwan's Project</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="modegelap.js">
+  </head>
+  <script>
+    function myFunction() {
+      var tulisanbesar = document.getElementsByClassName('tulisan-besar');
+      tulisanbesar[0].classList.toggle("dark-mode")
+      var tulisankecil = document.getElementsByClassName('tulisan-kecil');
+      tulisankecil[0].classList.toggle("tulisan-kecil-dark")
+      var lessonWrapper = document.getElementsByClassName('lesson-wrapper');
+      lessonWrapper[0].classList.toggle("lesson-dark")
+      var messagewrapper = document.getElementsByClassName('message-wrapper')
+      messagewrapper[0].classList.toggle('messagewrapper-dark')
+      var topwrapper = document.getElementsByClassName('top-wrapper');
+      topwrapper[0].classList.toggle("topwrapperdark")
+  }
+  </script>
+  
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="sslogo.JPG">
+        </div>
+        <button onclick="myFunction()">Dark Mode</button>
+        <span class=" menu-icon">
+          <span class="fa fa-bars"></span>
+          </span>
+        <div class="header-right">
+          <a href="#">Home</a>
+          <a href="#">Experience
+          <a href="#" class="login">Contact</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="foto">
+        <img src="af1.jpg">
+      </div>
+      <div class="container">
+        <div class="tulisan-besar">Hello, I'm Afwan!
+          <div class="tulisan-kecil">From West Sumbawa</div>
+          <div class="perkenalan">
+            <p>Hi, My name is M. Afwan Al Fiansyah. Just call me Afwan! I was born on 17 July 1997 in Taliwang, West Sumbawa. While studying in college, I also work become a liaison officer in upgrading/upskilling activities for tour guides organized by the Ministry of Tourism and Creative Economy of the Republic of Indonesia. During college I also participated in several campus activities such as student exchanges and participated as an assistant in research with lecturers. </p>
+              <a href="#" class="btn get">Get To Know Me More</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h1>Education and Work Experience</h1>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="alumni.png">
+              <p>Mataram University Alumni</p>
+            </div>
+            <div class="text-contents">Graduated at Mataram University in March 2021 with a very satisfactory predicate in the Department of Education.</div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="pertukaran.png">
+              <p>Student Exchange</p>
+            </div>
+            <div class="text-contents">Participated in student exchange from Mataram University to Muhammadiyah University of Sidoarjo.</div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="asdos.png">
+              <p>Research Assistant</p>
+            </div>
+            <div class="text-contents">Become a lecturer's research assistant, in collaboration with humanitarian organizations that focus on the child rights protection, network, and advocacy.</div>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="work.png">
+              <p>Liaison Officer</p>
+            </div>
+            <div class="text-contents">Become a liaison officer in upgrading/upskilling activities for tour guides organized by the Ministry of Tourism and Creative Economy of the Republic of Indonesia.</div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          
+        </div>
+        <h2>Contact</h2>
+          <div class="btn-message-wrapper">
+            <a href="#" class="btn Phone">
+              Add my phone number
+            </a>
+          </div>
+        <h3>Do you want to ask me a question personally?</h3>
+        </div>
+  
+      <form>
+      <p>Name</p>
+      <input>
+      <p>Email</p>
+      <input>
+      <p>Message</p>
+      <textarea></textarea>
+      </form>
+        <span class="btn message">Send your question</span>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <img src="sslogo.JPG">
+        <p>&copy 2021</p>
+        <a href="https://www.facebook.com/m.afwan.al.fiansyah" class="btn facebook"><span class="fa fa-facebook"></span></a>
+        <a href="https://instagram.com/afwan.alfian_?utm_medium=copy_link" class="btn instagram"><span class="fa fa-instagram"></span></a>
+        <p2>Follow me on:</p2>
+      </div>
+    </footer>
+  </body>
+</html>

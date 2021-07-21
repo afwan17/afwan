@@ -1,0 +1,155 @@
+/* For Smartphones */
+@media (max-width: 670px) {
+  .logo {
+    width: 62px;
+    margin-top: 12px;
+  }
+
+  .foto img {
+    width: 110px;
+    float: left;
+    margin-top: 1px;
+    margin:0 20px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+
+  .message-wrapper {
+    padding-bottom: 40px;
+  }
+
+  form {
+    font-size: 10px;
+    width: 80%;
+    margin-left: 15.5%;
+  }
+
+  .lesson p {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: crimson;
+  }
+
+  .text-contents {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+  .container h3 {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .lesson-icon img {
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 1px;
+    padding: 0px;
+  }
+  
+  .lesson-wrapper {
+    height: 1250pt;
+  }
+  .tulisan-besar {
+    font-size: 15pt;
+    margin-top: 10pt;
+    width: 100%;
+  }
+
+  .tulisan-kecil {
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+
+  .perkenalan {
+    margin-left: 1px;
+    margin-top: 1px;
+  }
+  
+  footer {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  footer p {
+    float: left;
+    font-size: 10px;
+  }
+
+  footer p2 {
+    margin-top: 14px;
+    float:left;
+  }
+
+  footer a {
+    width: 5px;
+    margin-top: 5px;
+    margin-right: 1px;
+  }
+  
+  .btn {
+    width: 50%;
+    font-size: 10px;
+  }
+
+  .get {
+    width: 50%;
+    margin-left: 70px;
+    font-size: 10px;
+    margin-top: 1px;
+    padding: 5px;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+    width: 2%;
+  }
+
+  .instagram {
+    width: 2%;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+    height: 575px;
+    padding-top: 95px;
+  }
+
+  button {
+    font-size: 7px;
+  }
+
+  .topwrapperdark {
+    background-color: rgb(28, 17, 77);
+  }
+
+  .header {
+    width: 100%;
+    background-color: black;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  /* Add CSS for menu-icon */
+  .menu-icon {
+    display: block;
+    float: right;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .phone {
+    padding: 5px;
+  }

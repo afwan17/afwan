@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  color: rgb(247, 247, 252);
+}
+
+.tulisan-kecil-dark {
+  color: rgb(253, 251, 251);
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+button {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-color:#e2a534;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  height: 650px;
+}
+
+.topwrapperdark {
+  background-color: rgb(28, 17, 77);
+}
+
+.top-wrapper p {
+  float: right;
+  margin-top: 0px;
+}
+.tulisan-besar {
+  font-size: 60px;
+  width: 50%;
+  height: 300px;
+  margin-top: 10pt;
+}
+
+.perkenalan {
+  width: 100%;
+  float: center;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 10pt;
+}
+
+.foto {
+  float: right;
+  margin-right: 160px;
+}
+
+.perkenalan p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.tulisan-kecil {
+  font-size: 35px;
+  width: 100%;
+}
+
+.get {
+  background-color: rgb(14, 156, 199);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.top-wrapper img {
+  width: 250px;
+  float: right;
+  margin-top: 5pt;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.Phone {
+  background-color: #0e0d01;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #1f6e9c;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(255, 255, 255);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(10, 8, 5, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #c79539;
+  text-align: center;
+  color: rgb(252, 251, 250);
+}
+
+.lesson-dark {
+  background-color: black;
+  color: yellow;
+}
+
+.lesson-wrapper h1 {
+  text-shadow: 3px 5px 3px rgb(84, 119, 218);
+}
+
+.lesson-wrapper img {
+  width: 300px;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 1px;
+  /* color: red; */
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading h1 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  color: rgb(252, 249, 249);
+  margin-top: 5px;
+  font-size: 15pt;
+  text-shadow: 2px 3px 2px black;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #fdfbfd;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid rgb(201, 22, 22);
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: khaki;
+}
+
+.messagewrapper-dark {
+  background-color: grey;
+  color:rgb(247, 247, 252)
+}
+
+.message-wrapper h2 {
+  font-size: 25pt;
+  margin-top: 1%;
+}
+
+.message-wrapper h3 {
+  font-size: 20;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #3a8fc0;
+  cursor: pointer;
+  box-shadow: 0 7px #090a0a;
+  margin-top: 20pt;
+  transition: 0.3s;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+form {
+  text-align: left;
+  margin-left: 36.5%;
+  width: 10pt;
+}
+footer a {
+  float: right;
+  margin-top: 4pt;
+}
+footer img {
+  margin-top: 5pt;
+  float: left;
+  width: 50px;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+  float: left;
+  width: 50px;
+  margin-top: 12pt;
+  margin-left: 5pt;
+}
+
+footer p2 {
+  color: rgb(253, 250, 250);
+  font-size: 13px;
+  float: right;
+  margin-top: 12pt;
+}
+
+.instagram {
+  margin-left: 5pt;
+}
+
+footer {
+  padding-top: 5px;
+  padding-bottom: 50px;
+  background-color: #1f6e9c;
+}
